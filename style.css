@@ -1,0 +1,145 @@
+body{
+  width: 900px;
+  background-color:   hsl(204, 43%, 93%) ;
+  font-family: 'Karla', sans-serif;
+  margin: auto;
+}
+
+
+#join{
+    background-color: #fff;
+    width: 700px;
+    height: 201px;
+  
+    margin: 80px 0px 50px 20px;
+
+    padding: 0px 0px 0px 45px;
+    border-radius: 5px 5px 0px 0px;
+}
+#join h1{
+    padding: 20px 0px 0px 0px;
+    color:  hsl(179, 62%, 43%);
+}
+#join h4{
+    font-size: 13pt;
+    color: hsl(71, 73%, 54%);
+}
+#join p{
+    margin-top: -10px;
+    color:  hsl(218, 22%, 67%);
+}
+
+#monthly{
+    color: #fff;
+    width: 320px;
+    height: 270px;
+    margin: -48px -50px -40px 20px ;
+    padding: 0px 0px 0px 45px;
+    background-color: #20B2AA;
+    border-radius: 0px 0px 0px 5px;
+}
+#monthly h2{
+    padding: 30px 0px 0px 0px
+}
+
+#monthly .strange{
+    
+    font-size: 25px;
+    
+}
+#monthly span{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input{
+    font-size: 12pt;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    background: hsl(71, 73%, 54%);
+   border: 0px;
+    border-radius: 5px;
+}
+
+#why{
+    width: 335px;
+    height: 270px;
+    margin: -290px 0px 0px 385px ;
+    padding: 0px 0px 0px 45px;
+    background-color: #48D1CC;
+   border-radius: 0px 0px 5px 0px;
+   color: #fff;
+}
+#why h2{
+    padding: 30px 0px 0px 0px;
+}
+#why p{
+    color: #eee;
+}
+footer{
+    
+    color: #fff;
+    font-size: 10px;
+   margin: -30px 0px 0px 400px;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:700px){
+body{
+    width: 375px;
+}
+     #join {
+       text-align: justify;
+       margin: 50px 30px 0px 0px;
+       width: 350px;
+       height: 340px;
+    }
+
+#join h1{
+    padding: 30px 10px 5px 0px;
+}
+#join h4{
+    letter-spacing: 2px;
+    padding: 0px 10px 15px 0px;
+}
+#join p{
+    font-size: 13pt;
+    line-height: 35px;
+    padding: 0px 10px 5px 0px;
+}
+
+#monthly{
+        margin: -20px 30px 0px 0px;
+        width: 350px;
+        height: 300px;
+        border-radius: 0px;
+    }
+ #monthly p{
+      font-size: 13pt;
+    }
+input{
+    width: 300px;
+    margin-top:40px;
+}
+
+#why{   
+        margin: -20px 30px 0px 0px;
+        width: 350px;
+        height: 300;
+        border-radius: 0px 0px 5px 5px;
+       
+    }   
+#why h2{
+    padding: 30px 0px 20px 0px;
+    font-size: 18pt;
+
+    }
+footer{
+    text-align: center;
+    margin: -40px 60px  0px 100px;
+}
+}
+
+
